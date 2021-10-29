@@ -1,0 +1,77 @@
+@media ( max-width:1220px) {
+    .fixed-width {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media ( max-width:1020px) {
+    .header-right {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+    .header-left {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .header-right ul {
+        text-align: center;
+    }
+}
+@media ( max-width:768px) {
+    .header-right ul li a {
+        border-right: none;
+        padding: 0 18px;
+        line-height: 65px;
+    }
+    .baner-section {
+        padding: 150px 0;
+    }
+    .service-item {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .service {
+        padding: 20px;
+    }
+    .blog-content-left {
+        width: 100%;
+    }
+    .blog-content-right {
+        width: 100%;
+    }
+    .footer-right {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer-item {
+        text-align: center;
+    }
+}
+
+@media ( max-width:768px) {
+    .baner-section {
+        padding: 110px 0;
+    }
+    .baner-caption h2 {
+        font-size: 22px;
+        padding: 8px 15px;
+    }
+    .baner-caption h1 {
+        font-size: 25px;
+        padding: 5px 0;
+        
+    }
+}
